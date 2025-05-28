@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sireena Bhanu - Portfolio</title>
+  <!--link rel="stylesheet" href="style.css" /-->
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: #000;
+  border-bottom: 2px solid #FFD700;
+}
+
+.navbar h1 {
+  color: #FFD700;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4em 2em;
+  background: #1a1a1a;
+  flex-wrap: wrap;
+}
+
+.hero-text h2 {
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.buttons {
+  margin-top: 1em;
+}
+
+.btn {
+  background-color: #FFD700;
+  color: #000;
+  padding: 0.75em 1.5em;
+  margin-right: 1em;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* Style all anchor tags */
+a {
+  text-decoration: none;         /* No underline */
+  color: white;                  /* Default color */
+}
+
+/* Optional hover effect */
+a:hover {
+  color: #ffd700;                /* Yellow on hover */
+}
+
+/* Prevent visited links from turning purple */
+a:visited {
+  color: white;                  /* Keep same as default */
+}
+
+/* For buttons that are links */
+
+
+
+
+.hero-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid #FFD700;
+  box-shadow: 0 0 15px #FFD700;
+}
+
+section {
+  padding: 2em;
+  /* Removed border-bottom */
+}
+
+h2 {
+  color: #FFD700;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #000;
+  color: #aaa;
+}
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1>Portfolio</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero-section">
+    <div class="hero-text">
+      <h2>Sireena Bhanu Gosaripalli</h2>
+      <p>📡 ECE Student | 💻 IoT & Web Developer </p>
+      <p>Passionate about tech, learning, and creating real-world solutions.</p>
+      <div class="buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+        <a href="#contact" class="btn">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="me.jpg" alt="Image of Sireena Bhanu" />
+    </div>
+  </section>
+ 
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate and driven individual with a strong interest in technology, innovation, and problem-solving. With a background in Electronics and Communication Engineering, I enjoy working on projects that offer real-time solutions to practical challenges. I have hands-on experience with programming languages like Python and Java, along with tools such as MATLAB and Django.
+         I am continuously exploring emerging technologies and expanding my skill set, with a keen focus on web development and the Internet of Things (IoT). 
+        I value collaboration,continous learning, and the opportunity to contribute meaningfully to any team or challenge I undertake.</p>
+   
+    
+  </section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Bachelor of Technology in Electronics and Communication Engineering</strong><br>
+      Srinivasa Ramanujan Institute Of Technology, Anantapur – 2021-2025<br>
+      CGPA: 92.5
+    </li><br>
+    <li><strong>Intermediate</strong><br>
+    Mangalakara Junior College, Puttaparthi – 2019-2021<br>
+    MARKS: 934/1000
+    </li><br>
+     <li><strong>Matriculation</strong><br>
+        Zilla Parishad High School, Nidimamidi – 2019<br>
+        CGPA: 93
+        </li>
+  </ul>
+</section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><a href="https://github.com/sireenabhanu19/Women_Security_System" ><strong>Real-Time Women Security Assistance System with Enhanced Features</strong></a>
+          <br><br>Developed a safety system for women that includes an emergency alert triggered via a button, real-time location tracking using GPS, and communication through GSM. The system automatically sends alerts to pre-registered emergency contacts and authorities, enabling a faster response in critical situations. Additionally, authorized personnel can access the data remotely without the user’s intervention, ensuring continued safety monitoring even if the individual is unable to respond.</li>
+      <br>
+        <li><a href="https://github.com/sireenabhanu19/Weather-Station" ><strong>Smart Weather Station Monitoring System </strong> </a>
+          <br><br> Developed a smart weather station that tracks temperature, humidity, and rainfall in real-time using sensors and transmits data wirelessly to both a local web page and the cloud. This system enables remote environmental monitoring, making it highly applicable in agriculture, research, weather stations, and food storage facilities for climate-based decision-making and analysis.</li>
+      <br>
+      <li><a href="https://github.com/sireenabhanu19/image-converter" ><strong>Web Application for Image to Grayscale Conversion using Django</strong></a>
+         <br><br>Created a web-based interface using Django, HTML, and CSS where users can upload a color image, convert it to grayscale, and download the processed image. Integrated backend processing with the Python PIL library, showcasing skills in full-stack development and image manipulation.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>programming Languages : </strong>Python , Java </li>
+      <li><Strong>Web development  </Strong><br><ul><li>Frontend: HTML, CSS</li><li>Backend: Django (Beginner)</li></ul></li>
+      <li><strong>Database : </strong> SQL</li>
+      <li><strong>Internet of Things (IoT) : </strong>Real-time project development ,Sensor integration</li>
+      <li><strong>Tools : </strong> MATLAB</li>
+      <li><strong> Concepts </strong>: Object-Oriented Programming (OOP), Problem Solving</li>
+    </ul>
+    <h2>Soft skills
+    </h2>
+    <ul>
+        <li>Time Management</li>
+        <li>Leadership</li>
+        <li>Continuous Learning</li>
+        <li>Team Collaboration</li>
+
+
+</li>
+    </ul>
+  </section>
+
+  
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sireenabhanu@gmail.com"class="btn1">sireenabhanu@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918688190131"class="btn1">+91 8688190131</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sireena-bhanu-g-051290270/" class="btn1" target="_blank">linkedin.com/in/sireena-bhanu</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sireena Bhanu</p>
+  </footer>
+
+</body>
+</html>
